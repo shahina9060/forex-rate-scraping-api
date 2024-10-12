@@ -1,0 +1,18 @@
+get closing rate api:
+method:get
+http://localhost:8080/api/get-closing/rate/?currencyPair=USD/EUR&date=2024-10-10
+
+
+get average rate api:
+method:get
+http://localhost:8080/api/get-avg/rate/?currencyPair=USD/EUR&startDate=2024-10-10&endDate=2024-10-10
+
+add currencyPair api:
+method: post
+http://localhost:8080/api/currency-pair
+req.body->
+{
+  "from": "INR",
+  "to": "RUB"
+    
+}
