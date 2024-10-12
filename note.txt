@@ -1,3 +1,8 @@
+Before running this api please create your env file which contain database url and server port.
+Then run my api on postman or any api testing tool.
+
+Here is the urls to access the api call:-
+
 get closing rate api:
 method:get
 http://localhost:8080/api/get-closing/rate/?currencyPair=USD/EUR&date=2024-10-10
